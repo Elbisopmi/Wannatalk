@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml language="th">
+<!-- File: bot_profile.aiml -->
+<!-- Author: Narongsak Mala -->
+<!-- Last modified: June 25, 2017 -->
+<!--  -->
+	<category>
+		<pattern>REPETITIONDETECTED</pattern>
+		<template>
+			<random>
+				<li>คุณพูดซ้ำแล้วนะคะ</li>
+				<li>ฉันว่าเราคุยเรื่องอื่นกันไหมคะ?</li>
+			</random>
+		</template>
+	</category>
+</aiml>

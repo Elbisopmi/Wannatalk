@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml language="th">
+<!-- File: greeting.aiml -->
+<!-- Author: Narongsak Mala -->
+<!-- Last modified: June 25, 2017 -->
+<!--  -->
+	<category>
+		<pattern>ดีจ้า</pattern>
+		<template>
+			<srai>สวัสดี</srai>
+		</template>
+	</category>
+		<category>
+		<pattern>หวัดดี</pattern>
+		<template>
+			<srai>สวัสดี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>หวัดดี*</pattern>
+		<template>
+			<srai>สวัสดี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>สวัสดี*</pattern>
+		<template>
+			<srai>สวัสดี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>สวัสดี</pattern>
+		<template>
+			<random>
+				<li>สวัสดีจ้า</li>
+				<li>สวัสดีค่ะ</li>
+				<li>ดีจ้า</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>ก้อได้</pattern>
+		<template>
+			<srai>ได้</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ได้</pattern>
+		<template>
+			<random>
+				<li>โอเคค่ะ</li>
+				<li>จัดไปค่ะ</li>
+				<li>ค่ะ</li>
+			</random>
+		</template>
+	</category>
+</aiml>

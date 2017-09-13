@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml language="th">
+<!-- File: rudeandcrude.aiml -->
+<!-- Author: Narongsak Mala -->
+<!-- Last modified: June 25, 2017 -->
+<!--  -->
+	<category>
+		<pattern>เรื่องของกุ*</pattern>
+		<template>
+			<srai>เรื่องของกุ</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>เรื่องของกุ</pattern>
+		<template>
+			<condition 	name="stat" value="angry">
+			<random>
+				<li>ควย</li>
+			</random>
+			</condition>
+			<random>
+				<li>คะ</li>
+				<li><get name="state"/>เออ เรื่องของคุณค่ะ<think ><set name="state">angry</set></think></li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ตอแหล</pattern>
+		<template>
+			<srai>ตอแหล</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ตอแหล_</pattern>
+		<template>
+			<srai>ตอแหล</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ตอแหล*</pattern>
+		<template>
+			<srai>ตอแหล</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ตอแหล</pattern>
+		<template>
+			<random>
+				<li>ฉันว่าคุณกำลังใช้คำหยายคาย</li>
+				<li>คุณควรใช้คำพูดที่สุภาพกับดิฉันด้วย</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_หี</pattern>
+		<template>
+			<srai>หี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>หี*</pattern>
+		<template>
+			<srai>หี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_หี*</pattern>
+		<template>
+			<srai>หี</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>หี</pattern>
+		<template>
+			<random>
+				<li>ฉันว่าคุณกำลังใช้คำหยายคาย</li>
+				<li>คุณควรใช้คำพูดที่สุภาพกับดิฉันด้วย</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ควย</pattern>
+		<template>
+			<srai>ควย</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ควย*</pattern>
+		<template>
+			<srai>ควย</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>_ควย*</pattern>
+		<template>
+			<srai>ควย</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>ควย</pattern>
+		<template>
+			<random>
+				<li>ฉันว่าคุณกำลังใช้คำหยายคาย</li>
+				<li>คุณควรใช้คำพูดที่สุภาพกับดิฉันด้วย</li>
+			</random>
+		</template>
+	</category>
+</aiml>
+
