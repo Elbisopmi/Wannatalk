@@ -1,1 +1,1 @@
-web: java -cp chatbot-0.0.1-SNAPSHOT.jar com.elbisopmi.chatbot.Launcher.Server 80
+web: java -cp chatbot-0.0.1-SNAPSHOT.jar com.elbisopmi.chatbot.Launcher.Server
