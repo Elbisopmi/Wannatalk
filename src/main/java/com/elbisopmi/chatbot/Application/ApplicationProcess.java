@@ -1,4 +1,4 @@
-package com.elbsopmi.chatbot.Application;
+package com.elbisopmi.chatbot.Application;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.URLDecoder;
@@ -14,7 +14,7 @@ import org.alicebot.ab.PCAIMLProcessorExtension;
 import org.alicebot.ab.Verbs;
 
 
-import  com.elbsopmi.chatbot.Parser.HttpMessage;
+import  com.elbisopmi.chatbot.Parser.HttpMessage;
 
 public class ApplicationProcess {
 	

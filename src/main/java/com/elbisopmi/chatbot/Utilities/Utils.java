@@ -1,11 +1,11 @@
-package com.elbsopmi.chatbot.Utilities;
+package com.elbisopmi.chatbot.Utilities;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import com.elbsopmi.chatbot.Parser.HttpMessage;
+import com.elbisopmi.chatbot.Parser.HttpMessage;
 
 public class Utils {
 	public static HttpMessage SendRequestHttpToServer(String host, int port, HttpMessage request) {

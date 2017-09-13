@@ -1,4 +1,4 @@
-package com.elbsopmi.chatbot.Parser;
+package com.elbisopmi.chatbot.Parser;
 
 import java.io.UnsupportedEncodingException;
 

@@ -1,12 +1,12 @@
-package com.elbsopmi.chatbot.Server;
+package com.elbisopmi.chatbot.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-import com.elbsopmi.chatbot.Application.ApplicationProcess;
-import com.elbsopmi.chatbot.Parser.HttpMessage;
+import com.elbisopmi.chatbot.Application.ApplicationProcess;
+import com.elbisopmi.chatbot.Parser.HttpMessage;
 import org.alicebot.ab.*;
 
 public final class HttpSocketServer extends SocketServer {

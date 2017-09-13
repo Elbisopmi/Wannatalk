@@ -1,4 +1,4 @@
-package com.elbsopmi.chatbot.Server;
+package com.elbisopmi.chatbot.Server;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;

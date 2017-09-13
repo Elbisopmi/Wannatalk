@@ -1,4 +1,4 @@
-package com.elbsopmi.chatbot.Server;
+package com.elbisopmi.chatbot.Server;
 
 public abstract class ITCPServer {
 	
